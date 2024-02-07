@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+.button_div button {
+
+    margin: 15px;
+    width: 100px;
+    text-align: center;
+    padding: 9px;
+ 
+    border-radius: 10px;
+ 
+    font-weight: bold;
+ 
+    border: 2px solid whitesmoke;
+ 
+    transition: all 0.5s ease;
+    cursor: pointer;
+ 
+ }
+ /*button:active {
+     transform: translateY(15px);
+ 
+     
+ }*/
+ 
+ /********************/
+ .increment_button:hover {
+     border: 2px Solid  rgb(34, 86, 14);
+     background-color: rgb(91, 192, 91);
+     color: rgba(250, 235, 215, 0.504);
+     box-shadow:  0px 0px 20px rgba(25, 132, 15, 0.998);
+     margin: 0px;
+ }
+ .reset_button:hover{
+     border: 2px solid rgb(196, 56, 32);
+     color: rgba(255, 99, 71, 0.67);
+     box-shadow: 0px 0px 20px rgb(226, 112, 91);
+     margin: 0px;
+ }
+ .decrease_button:hover{
+     border: 2px solid rgb(192, 11, 11);
+     background-color: rgb(219, 68, 68);
+     color: rgba(250, 235, 215, 0.504);
+     box-shadow: 0px 0px 20px rgb(255, 9, 9);;
+     margin: 0px;
+ }
+ 
+ /************************/
+ .increment_button {
+     background-color: rgb(66, 180, 22);
+     color: rgb(255, 254, 253);
+ }
+ 
+ .reset_button {
+     color: tomato;
+ }
+ 
+ .decrease_button {
+     background-color: rgb(220, 16, 16);
+     color: antiquewhite;
+ }
+ /**********************/
+ 
+ .button_div, .number {
+     margin-top: 45px;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+ 
+ }
+ 
+ 
+ .number {
+     color: whitesmoke;
+     font-size: 80px;
+     
+ }
